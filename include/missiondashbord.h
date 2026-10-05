@@ -54,32 +54,16 @@ private:
     Capture_Dashboard() const;
 
     QGraphicsProxyWidget*
-    Create_NPC_Widget(
-        const QPointF& position,
-        const Missions::WorkspaceObject* savedObject = nullptr
-        );
+    Create_NPC_Widget(const QPointF& position, const Missions::WorkspaceObject* savedObject = nullptr);
 
     QGraphicsProxyWidget*
-    Create_Workspace_Object(
-        const QString& type,
-        const QString& title,
-        const QString& text,
-        const QPointF& position,
-        const Missions::WorkspaceObject* savedObject = nullptr
-        );
+    Create_Workspace_Object(const QString& type, const QString& title, const QString& text, const QPointF& position, const Missions::WorkspaceObject* savedObject = nullptr);
 
-    void Ensure_Widget_Names(
-        QWidget* widget
-        ) const;
+    void Ensure_Widget_Names(QWidget* widget) const;
 
-    QJsonObject Save_Widget_State(
-        QWidget* widget
-        ) const;
+    QJsonObject Save_Widget_State(QWidget* widget) const;
 
-    void Restore_Widget_State(
-        QWidget* widget,
-        const QJsonObject& state
-        );
+    void Restore_Widget_State(QWidget* widget, const QJsonObject& state);
 
 private:
     Ui::MissionDashbord* ui;

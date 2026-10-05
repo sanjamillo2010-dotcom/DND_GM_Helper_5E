@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-130219aa12031c2de997.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DND_GM_Helper_5E",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DND_GM_Helper_5E::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DND_GM_Helper_5E-Debug-a42853a3014d023d6549.json",
+					"name" : "DND_GM_Helper_5E",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DND_GM_Helper_5E_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DND_GM_Helper_5E_autogen-Debug-4b9c7ce2cbef2757d7d4.json",
+					"name" : "DND_GM_Helper_5E_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DND_GM_Helper_5E_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DND_GM_Helper_5E_autogen_timestamp_deps-Debug-dc39269b542df55e4a47.json",
+					"name" : "DND_GM_Helper_5E_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sanja/Documents/workspace/DND_GM_Helper_5E/build/Desktop-Debug",
+		"source" : "/home/sanja/Documents/workspace/DND_GM_Helper_5E"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

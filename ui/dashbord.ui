@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dashbord</class>
+ <widget class="QMainWindow" name="Dashbord">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>515</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>D&amp;D GM Helper 5E</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="mainLayout">
+    <item>
+     <widget class="QLabel" name="titleLabel">
+      <property name="styleSheet">
+       <string notr="true">
+font-size: 26px;
+font-weight: bold;
+padding: 12px;
+       </string>
+      </property>
+      <property name="text">
+       <string>D&amp;D GM HELPER 5E</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSplitter" name="missionsSplitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QWidget" name="missionsPanel">
+       <layout class="QVBoxLayout" name="missionsPanelLayout">
+        <item>
+         <widget class="QLabel" name="missionsTitleLabel">
+          <property name="styleSheet">
+           <string notr="true">
+font-size: 18px;
+font-weight: bold;
+padding: 6px;
+           </string>
+          </property>
+          <property name="text">
+           <string>MISSIONS</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QListWidget" name="missionList"/>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="missionButtonsLayout">
+          <item>
+           <widget class="QPushButton" name="addMissionButton">
+            <property name="text">
+             <string>+ Add Mission</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="removeMissionButton">
+            <property name="text">
+             <string>- Remove Mission</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="saveMissionButton">
+            <property name="text">
+             <string>Save Mission</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="missionDashboardPanel">
+       <layout class="QVBoxLayout" name="missionDashboardLayout">
+        <item>
+         <widget class="QLabel" name="missionDashboardTitleLabel">
+          <property name="styleSheet">
+           <string notr="true">
+font-size: 18px;
+font-weight: bold;
+padding: 6px;
+           </string>
+          </property>
+          <property name="text">
+           <string>MISSION DASHBOARD</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="missionDetailsGroupBox">
+          <property name="title">
+           <string>Mission Details</string>
+          </property>
+          <layout class="QFormLayout" name="missionDetailsFormLayout">
+           <item row="0" column="0">
+            <widget class="QLabel" name="missionNameLabel">
+             <property name="text">
+              <string>Name:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="missionNameEdit">
+             <property name="placeholderText">
+              <string>Mission name...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="missionStatusLabel">
+             <property name="text">
+              <string>Status:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QComboBox" name="missionStatusCombo">
+             <item>
+              <property name="text">
+               <string>Planned</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Active</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Completed</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Failed</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Archived</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="missionDescriptionLabel">
+             <property name="text">
+              <string>Description:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QTextEdit" name="missionDescriptionEdit">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>180</height>
+              </size>
+             </property>
+             <property name="placeholderText">
+              <string>Mission description...</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="missionDashboardSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

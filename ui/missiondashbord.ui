@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+
+ <class>MissionDashbord</class>
+
+ <widget class="QMainWindow" name="MissionDashbord">
+
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1400</width>
+    <height>900</height>
+   </rect>
+  </property>
+
+  <property name="windowTitle">
+   <string>Mission Dashboard</string>
+  </property>
+
+  <widget class="QWidget" name="centralwidget">
+
+   <layout class="QVBoxLayout" name="mainLayout">
+
+    <!-- TOOLBAR -->
+
+    <item>
+     <layout class="QHBoxLayout" name="toolbarLayout">
+
+      <item>
+       <widget class="QLabel" name="missionTitleLabel">
+
+        <property name="text">
+         <string>Mission</string>
+        </property>
+
+        <property name="styleSheet">
+         <string notr="true">font-size: 22px;
+font-weight: bold;
+padding: 6px;</string>
+        </property>
+
+       </widget>
+      </item>
+
+      <item>
+       <widget class="QToolButton" name="addObjectButton">
+
+        <property name="text">
+         <string>Add Object</string>
+        </property>
+
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextOnly</enum>
+        </property>
+
+        <property name="popupMode">
+         <enum>QToolButton::InstantPopup</enum>
+        </property>
+
+       </widget>
+      </item>
+
+      <item>
+       <spacer name="toolbarSpacer">
+
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+
+       </spacer>
+      </item>
+
+      <item>
+       <widget class="QPushButton" name="saveMissionButton">
+
+        <property name="text">
+         <string>Save</string>
+        </property>
+
+       </widget>
+      </item>
+
+      <item>
+       <widget class="QPushButton" name="backButton">
+
+        <property name="text">
+         <string>Back</string>
+        </property>
+
+       </widget>
+      </item>
+
+     </layout>
+    </item>
+
+    <!-- DESCRIPTION -->
+
+    <item>
+     <widget class="QLabel" name="missionDescriptionLabel">
+
+      <property name="text">
+       <string>Mission description</string>
+      </property>
+
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+
+     </widget>
+    </item>
+
+    <!-- 2D CANVAS -->
+
+    <item>
+
+     <widget class="MissionWorkspaceView"
+             name="workspaceView">
+
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>650</height>
+       </size>
+      </property>
+
+     </widget>
+
+    </item>
+
+   </layout>
+
+  </widget>
+
+  <widget class="QStatusBar" name="statusbar"/>
+
+ </widget>
+
+ <customwidgets>
+
+<customwidget>
+ <class>MissionWorkspaceView</class>
+ <extends>QGraphicsView</extends>
+ <header>../include/missiondashbord.h</header>
+</customwidget>
+
+ </customwidgets>
+
+ <resources/>
+ <connections/>
+
+</ui>

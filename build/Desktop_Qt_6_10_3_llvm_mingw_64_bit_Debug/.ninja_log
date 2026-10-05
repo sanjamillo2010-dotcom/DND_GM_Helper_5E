@@ -1,0 +1,27 @@
+# ninja log v6
+82	532	8129150104672051	F:/workspace/DND_GM_Helper_5E/build/Desktop_Qt_6_10_3_llvm_mingw_64_bit_Debug/CMakeFiles/cmake.verify_globs	4440735329b87350
+305	5443	8129137573631544	DND_GM_Helper_5E_autogen/timestamp	21c8ed08185b04c5
+17357	17683	8129137696056408	DND_GM_Helper_5E.exe	fc34bb541af4bc2c
+5485	13813	8129137577334240	CMakeFiles/DND_GM_Helper_5E.dir/src/campaign.cpp.obj	d181189b89312ba6
+5555	12411	8129137578035740	CMakeFiles/DND_GM_Helper_5E.dir/src/npc.cpp.obj	506eb746625d22c5
+5461	16333	8129137577095254	CMakeFiles/DND_GM_Helper_5E.dir/DND_GM_Helper_5E_autogen/mocs_compilation.cpp.obj	8562a6c246a875de
+5496	13977	8129137577437697	CMakeFiles/DND_GM_Helper_5E.dir/src/missions.cpp.obj	8a9e3680aeb650fd
+305	5443	8129137573631544	F:/workspace/DND_GM_Helper_5E/build/Desktop_Qt_6_10_3_llvm_mingw_64_bit_Debug/DND_GM_Helper_5E_autogen/timestamp	21c8ed08185b04c5
+305	5443	8129137573631544	DND_GM_Helper_5E_autogen/mocs_compilation.cpp	21c8ed08185b04c5
+305	5443	8129137573631544	F:/workspace/DND_GM_Helper_5E/build/Desktop_Qt_6_10_3_llvm_mingw_64_bit_Debug/DND_GM_Helper_5E_autogen/mocs_compilation.cpp	21c8ed08185b04c5
+5567	9426	8129137578149161	CMakeFiles/DND_GM_Helper_5E.dir/src/utils.cpp.obj	7ef7c5675ead85e3
+5506	15042	8129137577541461	CMakeFiles/DND_GM_Helper_5E.dir/src/npccreatordialog.cpp.obj	4f5cbc5c1f16625d
+5472	14069	8129137577199891	CMakeFiles/DND_GM_Helper_5E.dir/main.cpp.obj	c79329ec686aab49
+5577	15483	8129137578246068	CMakeFiles/DND_GM_Helper_5E.dir/src/npcwindow.cpp.obj	6e697f40657ca23d
+5588	14521	8129137578358429	CMakeFiles/DND_GM_Helper_5E.dir/src/missionworkspaceview.cpp.obj	574595c9cc2f36dd
+5518	15858	8129137577655832	CMakeFiles/DND_GM_Helper_5E.dir/src/campaigndashbord.cpp.obj	d47d1655f3daee92
+5531	15878	8129137577794046	CMakeFiles/DND_GM_Helper_5E.dir/src/dashbord.cpp.obj	6237cd68db949d7f
+5544	17356	8129137577915638	CMakeFiles/DND_GM_Helper_5E.dir/src/missiondashbord.cpp.obj	9dcbdbacf3dfdc09
+532	2541	8129150125252587	build.ninja	16020d92acf17d57
+31	402	8129150127294035	F:/workspace/DND_GM_Helper_5E/build/Desktop_Qt_6_10_3_llvm_mingw_64_bit_Debug/CMakeFiles/cmake.verify_globs	4440735329b87350
+436	1000	8129150131345339	DND_GM_Helper_5E_autogen/timestamp	21c8ed08185b04c5
+436	1000	8129150131345339	DND_GM_Helper_5E_autogen/mocs_compilation.cpp	21c8ed08185b04c5
+436	1000	8129150131345339	F:/workspace/DND_GM_Helper_5E/build/Desktop_Qt_6_10_3_llvm_mingw_64_bit_Debug/DND_GM_Helper_5E_autogen/timestamp	21c8ed08185b04c5
+436	1000	8129150131345339	F:/workspace/DND_GM_Helper_5E/build/Desktop_Qt_6_10_3_llvm_mingw_64_bit_Debug/DND_GM_Helper_5E_autogen/mocs_compilation.cpp	21c8ed08185b04c5
+1001	9608	8129150136989877	CMakeFiles/DND_GM_Helper_5E.dir/src/campaigndashbord.cpp.obj	d47d1655f3daee92
+9608	11099	8129150223056956	DND_GM_Helper_5E.exe	fc34bb541af4bc2c

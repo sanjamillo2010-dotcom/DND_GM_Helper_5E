@@ -4,8 +4,8 @@
 #include <QJsonObject>
 #include <QMainWindow>
 
-#include "campaign.h"
-#include "missionworkspaceview.h"
+#include "../include/campaign.h"
+#include "../include/missionworkspaceview.h"
 
     QT_BEGIN_NAMESPACE
 
@@ -39,8 +39,6 @@ public:
 private slots:
     void Add_NPC();
     void Add_Map();
-    void Add_Battle();
-    void Add_Note();
 
     void Save_Mission();
     void Close_Mission();
@@ -55,6 +53,9 @@ private:
 
     QGraphicsProxyWidget*
     Create_NPC_Widget(const QPointF& position, const Missions::WorkspaceObject* savedObject = nullptr);
+
+    QGraphicsProxyWidget*
+    Create_Map_Widget(const QPointF& position, const Missions::WorkspaceObject* savedObject = nullptr);
 
     QGraphicsProxyWidget*
     Create_Workspace_Object(const QString& type, const QString& title, const QString& text, const QPointF& position, const Missions::WorkspaceObject* savedObject = nullptr);

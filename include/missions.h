@@ -7,7 +7,7 @@
 #include <QJsonObject>
 #include <QPointF>
 
-    class Missions
+class Missions
 {
 public:
     struct WorkspaceObject

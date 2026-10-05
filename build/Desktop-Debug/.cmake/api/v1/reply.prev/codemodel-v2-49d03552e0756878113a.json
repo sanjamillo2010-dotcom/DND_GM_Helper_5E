@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-130219aa12031c2de997.json",
+					"jsonFile" : "directory-.-Debug-c8b8be478f6158854621.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "DND_GM_Helper_5E::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-DND_GM_Helper_5E-Debug-a42853a3014d023d6549.json",
+					"jsonFile" : "target-DND_GM_Helper_5E-Debug-29c16a9991beff14a89a.json",
 					"name" : "DND_GM_Helper_5E",
 					"projectIndex" : 0
 				},

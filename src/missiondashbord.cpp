@@ -51,8 +51,6 @@ MissionDashbord::MissionDashbord(Campaign* campaign, int missionIndex, QWidget* 
 
     connect(m_addNPCAction, &QAction::triggered, this, &MissionDashbord::Add_NPC);
     connect(m_addMapAction, &QAction::triggered, this, &MissionDashbord::Add_Map);
-    connect(m_addBattleAction, &QAction::triggered, this, &MissionDashbord::Add_Battle);
-    connect(m_addNoteAction, &QAction::triggered, this, &MissionDashbord::Add_Note);
 
     connect(ui->saveMissionButton, &QPushButton::clicked, this, &MissionDashbord::Save_Mission);
     connect(ui->backButton, &QPushButton::clicked, this, &MissionDashbord::Close_Mission);
@@ -115,24 +113,6 @@ void MissionDashbord::Add_Map()
     Create_Workspace_Object("Map", "Map", "Map notes", center);
 }
 
-void MissionDashbord::Add_Battle()
-{
-    const QPointF center = ui->workspaceView->mapToScene(
-        ui->workspaceView->viewport()->rect().center()
-        );
-
-    Create_Workspace_Object("Battle", "Battle", "Battle notes", center);
-}
-
-void MissionDashbord::Add_Note()
-{
-    const QPointF center = ui->workspaceView->mapToScene(
-        ui->workspaceView->viewport()->rect().center()
-        );
-
-    Create_Workspace_Object("Note", "Note", "", center);
-}
-
 QGraphicsProxyWidget* MissionDashbord::Create_NPC_Widget(
     const QPointF& position,
     const Missions::WorkspaceObject* savedObject)
@@ -172,6 +152,14 @@ QGraphicsProxyWidget* MissionDashbord::Create_NPC_Widget(
     }
 
     return proxy;
+}
+
+QGraphicsProxyWidget* Create_Map_Widget(
+    const QPointF& position,
+    const Missions::WorkspaceObject*
+    savedObject = nullptr)
+{
+    //Add the Create Map Widget code !
 }
 
 QGraphicsProxyWidget* MissionDashbord::Create_Workspace_Object(

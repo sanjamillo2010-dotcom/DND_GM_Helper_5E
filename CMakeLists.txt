@@ -51,6 +51,9 @@ set(PROJECT_SOURCES
     src/utils.cpp
     include/utils.h
 
+    include/map.h
+    src/map.cpp
+
     src/npcwindow.cpp
     include/npcwindow.h
 

@@ -26,15 +26,13 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 namespace {
 struct qt_meta_stringdata_MissionDashbord_t {
-    uint offsetsAndSizes[16];
+    uint offsetsAndSizes[12];
     char stringdata0[16];
     char stringdata1[8];
     char stringdata2[1];
     char stringdata3[8];
-    char stringdata4[11];
-    char stringdata5[9];
-    char stringdata6[13];
-    char stringdata7[14];
+    char stringdata4[13];
+    char stringdata5[14];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_MissionDashbord_t::offsetsAndSizes) + ofs), len 
@@ -44,17 +42,13 @@ Q_CONSTINIT static const qt_meta_stringdata_MissionDashbord_t qt_meta_stringdata
         QT_MOC_LITERAL(16, 7),  // "Add_NPC"
         QT_MOC_LITERAL(24, 0),  // ""
         QT_MOC_LITERAL(25, 7),  // "Add_Map"
-        QT_MOC_LITERAL(33, 10),  // "Add_Battle"
-        QT_MOC_LITERAL(44, 8),  // "Add_Note"
-        QT_MOC_LITERAL(53, 12),  // "Save_Mission"
-        QT_MOC_LITERAL(66, 13)   // "Close_Mission"
+        QT_MOC_LITERAL(33, 12),  // "Save_Mission"
+        QT_MOC_LITERAL(46, 13)   // "Close_Mission"
     },
     "MissionDashbord",
     "Add_NPC",
     "",
     "Add_Map",
-    "Add_Battle",
-    "Add_Note",
     "Save_Mission",
     "Close_Mission"
 };
@@ -67,7 +61,7 @@ Q_CONSTINIT static const uint qt_meta_data_MissionDashbord[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-       6,   14, // methods
+       4,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -75,16 +69,12 @@ Q_CONSTINIT static const uint qt_meta_data_MissionDashbord[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   50,    2, 0x08,    1 /* Private */,
-       3,    0,   51,    2, 0x08,    2 /* Private */,
-       4,    0,   52,    2, 0x08,    3 /* Private */,
-       5,    0,   53,    2, 0x08,    4 /* Private */,
-       6,    0,   54,    2, 0x08,    5 /* Private */,
-       7,    0,   55,    2, 0x08,    6 /* Private */,
+       1,    0,   38,    2, 0x08,    1 /* Private */,
+       3,    0,   39,    2, 0x08,    2 /* Private */,
+       4,    0,   40,    2, 0x08,    3 /* Private */,
+       5,    0,   41,    2, 0x08,    4 /* Private */,
 
  // slots: parameters
-    QMetaType::Void,
-    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -106,10 +96,6 @@ Q_CONSTINIT const QMetaObject MissionDashbord::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'Add_Map'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'Add_Battle'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'Add_Note'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'Save_Mission'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'Close_Mission'
@@ -126,10 +112,8 @@ void MissionDashbord::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
         switch (_id) {
         case 0: _t->Add_NPC(); break;
         case 1: _t->Add_Map(); break;
-        case 2: _t->Add_Battle(); break;
-        case 3: _t->Add_Note(); break;
-        case 4: _t->Save_Mission(); break;
-        case 5: _t->Close_Mission(); break;
+        case 2: _t->Save_Mission(); break;
+        case 3: _t->Close_Mission(); break;
         default: ;
         }
     }
@@ -155,13 +139,13 @@ int MissionDashbord::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 4;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
+        if (_id < 4)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 6;
+        _id -= 4;
     }
     return _id;
 }
